@@ -6,7 +6,7 @@ Projects completed as a part of Great Learning UT Austin PGP - Artificial Intell
 
 Welcome to my portfolio. This repository documents a comprehensive technical journey across the machine learning lifecycle spanning foundational data analytics, deep learning, enterprise RAG frameworks, and production-grade model deployment.
 
-The core focus across these projects is turning raw data and predictive models into scalable, functional software that solves real-world business problems.
+The core focus across these projects is analyzing complex raw data, building predictive models, and translating those technical insights into actionable business decisions and model deployment.
 
 ---
 
@@ -19,7 +19,7 @@ The core focus across these projects is turning raw data and predictive models i
 * **Objective:** Cut down information overload for healthcare workers by building an intelligent AI assistant using trusted medical manuals.
 * **Core Stack:** Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Prompt Engineering, Data Preprocessing.
 * **Architecture & Impact:**
-Designed a system that scans dense medical texts to answer clinical questions quickly. By using smart text-splitting and indexing, the system ensures the AI finds the exact information needed. Precise prompt engineering keeps the model grounded in the real text, drastically cutting down on fake or inaccurate answers (hallucinations) to help standardize care and improve patient outcomes.
+Designed a model that scans dense medical texts to answer clinical questions quickly. By using smart text-splitting and indexing, the model ensures the AI finds the exact information needed. Precise prompt engineering keeps the model grounded in the real text, drastically cutting down on fake or inaccurate answers (hallucinations) to help standardize care and improve patient outcomes.
 
 ---
 
