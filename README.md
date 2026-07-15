@@ -4,22 +4,22 @@ Projects completed as a part of Great Learning UT Austin PGP - Artificial Intell
 
 # AI & Analytics Portfolio
 
-Welcome to my portfolio. This repository documents a comprehensive technical journey across the machine learning lifecycle—spanning foundational data analytics, deep learning, enterprise RAG frameworks, and production-grade model deployment.
+Welcome to my portfolio. This repository documents a comprehensive technical journey across the machine learning lifecycle spanning foundational data analytics, deep learning, enterprise RAG frameworks, and production-grade model deployment.
 
-The focus of these initiatives is to bridge the gap between advanced data science and strategic engineering solutions that drive business value.
+The core focus across these projects is turning raw data and predictive models into scalable, functional software that solves real-world business problems.
 
 ---
 
-## 🚀 Featured Enterprise & AI Initiatives
+## 🚀 Generative AI & Microservices
 
-### 1. Medical Assistant (Generative AI & RAG Architecture)
+### 1. Medical Assistant (GenAI & RAG Architecture)
 
 **Course:** Natural Language Processing with Generative AI | *Jan 2026*
 
-* **Objective:** Mitigate informational bottlenecks in healthcare operations by engineering a functional Retrieval-Augmented Generation (RAG) prototype powered by enterprise medical manuals.
-* **Core Stack:** Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Prompt Engineering, Advanced Text Preprocessing.
+* **Objective:** Cut down information overload for healthcare workers by building an intelligent AI assistant using trusted medical manuals.
+* **Core Stack:** Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Prompt Engineering, Data Preprocessing.
 * **Architecture & Impact:**
-Designed an intelligent clinical decision-support framework to streamline unstructured data retrieval. By implementing systematic chunking, indexing strategies, and precise prompt engineering, the prototype directly addresses information overload. The system minimizes hallucinations and provides structured, verifiable insights to enhance diagnostic accuracy, standardize clinical workflows, and optimize patient outcomes.
+Designed a system that scans dense medical texts to answer clinical questions quickly. By using smart text-splitting and indexing, the system ensures the AI finds the exact information needed. Precise prompt engineering keeps the model grounded in the real text, drastically cutting down on fake or inaccurate answers (hallucinations) to help standardize care and improve patient outcomes.
 
 ---
 
@@ -27,9 +27,10 @@ Designed an intelligent clinical decision-support framework to streamline unstru
 
 **Course:** Model Deployment | *Mar 2026*
 
-* **Objective:** Architect a scalable, end-to-end predictive pipeline to forecast multi-regional supermarket revenues and optimize enterprise inventory management.
-* **Core Stack:** Python, Flask API, Docker Containerization, Streamlit, HuggingFace Spaces, Hyperparameter Tuning, EDA.
-* **Business Transformation:** Transformed a raw predictive engine into a production-ready cloud asset. Engineered data preprocessing pipelines, optimized regression algorithms, and wrapped the model into a lightweight **Flask API**. Containerized the microservice using **Docker** for cross-environment stability and launched an interactive **Streamlit** dashboard hosted on HuggingFace Spaces. This enables non-technical leadership to run scenario-based quarterly revenue planning seamlessly.
+* **Objective:** Build a scalable, end-to-end predictive pipeline to forecast quarterly sales for a retail chain and optimize inventory management.
+* **Core Stack:** Python, Flask API, Docker, Streamlit, HuggingFace Spaces, Hyperparameter Tuning, EDA.
+* **Business Transformation:**
+Turned a raw machine learning model into a ready-to-use cloud tool. Cleaned the data, optimized the regression models, and wrapped the final model into a lightweight **Flask API**. Containerized the entire application with **Docker** so it runs reliably anywhere, and built an easy-to-use **Streamlit** dashboard on Hugging Face Spaces. This allows stakeholders to run live revenue forecasts directly from their web browsers.
 
 ---
 
@@ -37,10 +38,10 @@ Designed an intelligent clinical decision-support framework to streamline unstru
 
 **Course:** Introduction to Computer Vision | *Feb 2026*
 
-* **Objective:** Automate workplace Health, Safety, and Environment (HSE) enforcement by detecting personal protective equipment (PPE) compliance in real-time.
-* **Core Stack:** Convolutional Neural Networks (CNNs), Transfer Learning, Fine-Tuning, Advanced Data Augmentation.
+* **Objective:** Automate workplace safety monitoring by instantly detecting whether workers are wearing their safety helmets.
+* **Core Stack:** Convolutional Neural Networks (CNNs), Transfer Learning, Fine-Tuning, Data Augmentation.
 * **Business Transformation:**
-Built a scalable image classification framework to minimize human oversight error in safety enforcement. Leveraged transfer learning and strategic fine-tuning on pre-trained deep learning structures to maximize feature extraction while keeping training cycles highly cost-efficient. Implemented data augmentation to ensure robust model generalization across diverse lighting and environmental conditions on live job sites.
+Built an image classification model to reduce human error in safety enforcement. Used data augmentation (altering images) to make the dataset more diverse and prevent the model from overfitting. Instead of training a massive model from scratch, utilized **Transfer Learning** by fine-tuning a pre-trained model. This achieved high accuracy for helmet detection while keeping training time and compute costs low.
 
 ---
 
@@ -48,10 +49,10 @@ Built a scalable image classification framework to minimize human oversight erro
 
 **Course:** Introduction to Neural Networks | *Dec 2025*
 
-* **Objective:** Reduce operational overhead and prevent catastrophic hardware failures in wind turbine generators via high-fidelity sensor telemetry analysis.
-* **Core Stack:** Neural Networks, Custom Activation Functions, Binary/Multi-class Classification, Advanced EDA.
+* **Objective:** Lower maintenance costs and prevent major breakdowns in wind turbines by analyzing real-time sensor data.
+* **Core Stack:** Neural Networks, Activation Functions, Binary Classification, Advanced EDA.
 * **Business Transformation:**
-Engineered a neural-network-driven predictive maintenance engine specifically optimized to **minimize false negatives**—ensuring critical components are serviced before a breakdown occurs. This architecture translates complex sensor data into structured maintenance flags, providing operations teams with data-driven lead times to drastically lower emergency repair costs and stabilize renewable energy outputs.
+Engineered a neural network model specifically optimized to **minimize false negatives** (missing a potential failure). Because a missed failure means a broken turbine, the network's structure and settings were tuned around this exact goal. The resulting system flags anomalies early, giving maintenance teams a clear warning window to fix parts before they break, saving money and keeping the energy grid stable.
 
 ---
 
@@ -61,10 +62,10 @@ Engineered a neural-network-driven predictive maintenance engine specifically op
 
 **Course:** Advanced Machine Learning | *Nov 2025*
 
-* **Objective:** Streamline the visa adjudication pipeline by predicting approval probabilities and identifying core applicant success vectors.
-* **Core Stack:** Bagging, Boosting, Stacking Classifiers, Hyperparameter Tuning, Interpretability Frameworks.
+* **Objective:** Speed up the visa approval process by predicting application outcomes and finding the key factors that lead to approval or denial.
+* **Core Stack:** Bagging, Boosting, Stacking Classifiers, Hyperparameter Tuning, Model Interpretability.
 * **Business Transformation:**
-Constructed and compared high-performing ensemble architectures (Bagging, Boosting, and Stacking) to create a robust decision-engine. The project successfully balanced high predictive power with model interpretability, giving compliance officers clear visibility into the specific applicant attributes driving certifications or denials.
+Built and compared powerful ensemble models (Bagging, Boosting, and Stacking) to create a highly accurate decision engine. Balanced high performance with model interpretability, ensuring that compliance teams can easily see and audit the exact applicant details that drive the model's recommendations.
 
 ---
 
@@ -72,10 +73,10 @@ Constructed and compared high-performing ensemble architectures (Bagging, Boosti
 
 **Course:** Machine Learning | *Sep 2025*
 
-* **Objective:** Maximize customer acquisition rates for a retail bank by predicting loan package adoption behaviors.
-* **Core Stack:** Decision Tree Classifiers, Performance Metrics Optimization, Univariate/Bivariate Feature Analysis.
+* **Objective:** Help a retail bank target the right customers for personal loans, reducing marketing waste and increasing conversion rates.
+* **Core Stack:** Decision Tree Classifiers, Performance Metrics, Data Preprocessing, Business Recommendations.
 * **Business Transformation:**
-Developed an algorithmic targeting framework that identifies high-propensity bank customers based on historical demographic and financial profiles. By optimizing the Decision Tree's precision-recall balance, the model provides marketing teams with highly actionable customer segmentation, reducing campaign waste and increasing conversion efficiency.
+Created a classification model that maps out customer habits to find high-potential loan buyers. Cleaned raw data, handled missing values, and tuned a Decision Tree model to get the best balance between precision and recall. Translated the model's logic into clear business strategies, giving the marketing team a precise roadmap of who to target.
 
 ---
 
@@ -83,10 +84,10 @@ Developed an algorithmic targeting framework that identifies high-propensity ban
 
 **Course:** Python Foundations | *Aug 2025*
 
-* **Objective:** Uncover latent demand dynamics, cuisine trends, and delivery bottlenecks for a multi-vendor food aggregator platform.
-* **Core Stack:** Python, Pandas, NumPy, Seaborn, Matplotlib, Statistical Visualization.
+* **Objective:** Find hidden customer demand patterns, top cuisines, and delivery bottlenecks for a food aggregator platform.
+* **Core Stack:** Python, Pandas, NumPy, Seaborn, Matplotlib, Data Visualization.
 * **Business Transformation:**
-Extracted actionable operational insights from raw, unstructured transaction logs. Isolated delivery peak-times and high-value customer behavior patterns, presenting visual, data-backed recommendations to improve delivery logistics and platform user engagement.
+Pulled clear, actionable insights out of messy transaction logs. Isolated peak order times and mapped out user behaviors using **Pandas**, **Seaborn**, and **Matplotlib**. Presented these findings visually to help the platform optimize its delivery logistics and boost customer experience.
 
 ---
 
